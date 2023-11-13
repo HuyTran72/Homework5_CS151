@@ -1,4 +1,5 @@
-package com.example.Q2;
+// com.internship.jobdashboard.JobDashboard
+package com.internship.jobdashboard;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,6 +9,10 @@ public class JobDashboard {
 
     public void addObserver(JobObserver observer) {
         observers.add(observer);
+    }
+
+    public void removeObserver(JobObserver observer) {
+        observers.remove(observer);
     }
 
     public void postJob(String jobDetails) {

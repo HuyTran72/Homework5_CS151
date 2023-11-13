@@ -1,4 +1,5 @@
-package com.example.Q2;
+// com.internship.jobdashboard.JobSeeker
+package com.internship.jobdashboard;
 
 public class JobSeeker implements JobObserver {
     private String name;
